@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MobiDevWikiTask</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_button">Search in Wiki</string>
+    <string name="hint_input">Please, enter the text</string>
+    <string name="toast_valid_message">Search field is empty</string>
+    <string name="toast_query_message">Query is finished</string>
+    <string name="page_title">Page title: </string>
+    <string name="page_id">Page id: </string>
+</resources>
