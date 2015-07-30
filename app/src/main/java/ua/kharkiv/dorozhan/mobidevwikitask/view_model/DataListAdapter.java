@@ -40,8 +40,10 @@ public class DataListAdapter extends BaseAdapter {
         TextView title = (TextView) view.findViewById(R.id.titleTextView);
         TextView id = (TextView) view.findViewById(R.id.idTextView);
         TextView number = (TextView) view.findViewById(R.id.numberTextView);
-        title.setText(R.string.page_title + getItem(position).getTitle());
-        id.setText(R.string.page_id + getItem(position).getPageId());
+        String pageTitle = context.getString(R.string.page_title);
+        String pageId = context.getString(R.string.page_id);
+        title.setText(pageTitle + getItem(position).getTitle());
+        id.setText(pageId + getItem(position).getPageId());
         number.setText(String.valueOf(++position));
         return view;
     }
